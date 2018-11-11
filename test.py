@@ -1,53 +1,103 @@
 import tweepy
 import pickle
-import signal
-import sys
 import datetime
+import operator
+import matplotlib.pyplot as plt
+import pycountry
 
-from streamListener import *
 from tweetData import *
+from analyzer import *
+from plotter import *
 
 tweets = []
-def signal_handler(sig, frame):
-    print("\nExiting...")
-    if len(tweets) > 1:
-        output = open('data.pkl', 'wb')
-        pickle.dump(tweets, output)
-        output.close()
-        print("Saved {0} tweets.".format(len(tweets)))
-    sys.exit(0)
-    
-signal.signal(signal.SIGINT, signal_handler)
 
 try:
-    pickleFile = open('data.pkl', 'rb')
+    pickleFile = open('dataAll.pkl', 'rb')
     tweets = pickle.load(pickleFile)
     pickleFile.close()
     print("Successfully loaded data from {0} tweets.".format(len(tweets)))
 except:
     print("Couldn't load pickle file, starting new data list.")
 
-with open("settings.txt", "r") as f:
-    consumer_key = str.strip(f.readline())
-    consumer_secret = str.strip(f.readline())
-    access_token = str.strip(f.readline())
-    access_token_secret = str.strip(f.readline())
+def plotEmojiFlagUsage():
+    words = {}
+    with open("words.txt", "r") as wordsFile:
+        while True:
+            line = wordsFile.readline()
+            if not line:
+                break
+            line = line.strip().split(" ", 1)
+            words[line[0].strip()] = line[1].strip().replace("Flag: ", "")
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+    flags = getWordCounts(tweets, words.keys())
+    #flags = flags[:10]
 
-api = tweepy.API(auth)
-outputFile = open("output.json", "a")
+    values = []
+    labels = []
+    i = 0
+    for val in flags:
+        i += 1
+        #print("{3}. {0} ({1}) :: {2}".format(val[0], words[val[0]], val[1], i))
+        print("{2}. {0} :: {1}".format(words[val[0]], val[1], i))
+        label = "{0}. {1}".format(i, words[val[0]])
+        labels.append(label)
+        values.append(val[1])
 
-words = []
-with open("words.txt", "r") as wordsFile:
-    while True:
-        line = wordsFile.readline()
-        if not line:
-            break
-        line = line.strip().split(" ")[0].strip()
-        words.append(line)
+    plotBarValues(labels, values, "Ten most used flag emojis", "Flag Emoji", "Amount of tweets")
+    plt.show()
 
-streamListener = TwitterStreamListener(tweets)
-sapi = tweepy.streaming.Stream(auth, streamListener)    
-sapi.filter(track=words)
+def plotLanguageUsage():
+    langs = getLanguageCounts(tweets)
+    langs = langs[:10]
+    values = []
+    labels = []
+    i = 0
+    for val in langs:
+        i += 1
+        langName = pycountry.languages.get(alpha_2=val[0]).name
+        print("{2}. {0} :: {1}".format(langName, val[1], i))
+        labels.append(langName)
+        values.append(val[1])
+    plotBarValues(labels, values, "Ten most used languages in tweets", "Language", "Amount of tweets")
+    plt.show()
+
+def plotPlaceUsage():
+    places = getPlaceCounts(tweets)
+    places = places[:10]
+    values = []
+    labels = []
+    for val in places:
+        print("{0} :: {1}".format(val[0], val[1]))
+        labels.append(val[0])
+        values.append(val[1])
+    plotBarValues(labels, values, "Twitter usage by place", "Place", "Amount of tweets")
+    plt.show()
+
+def plotTimeUsage():
+    times = getTimeCounts(tweets)
+    values = []
+    labels = []
+    for val in times:
+        print("{0} :: {1}".format(val[0], val[1]))
+        labels.append(val[0])
+        values.append(val[1])
+    plotBarValues(labels, values, "Twitter usage by time", "Time", "Amount of tweets")
+    plt.show()
+
+def plotSourceUsage():
+    sources = getSourceCounts(tweets)
+    sources = sources[:5]
+    values = []
+    labels = []
+    for val in sources:
+        print("{0} :: {1}".format(val[0], val[1]))
+        labels.append(val[0])
+        values.append(val[1])
+    plotBarValues(labels, values, "Twitter usage by source", "Source", "Amount of tweets")
+    plt.show()
+
+#plotLanguageUsage()
+plotEmojiFlagUsage()
+#plotTimeUsage()
+#plotSourceUsage()
+#plotPlaceUsage()
