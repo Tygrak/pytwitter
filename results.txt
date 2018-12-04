@@ -1,0 +1,268 @@
+1. United States :: 179542
+2. Brazil :: 86721
+3. France :: 62154
+4. Turkey :: 60390
+5. Japan :: 55748
+6. Spain :: 53689
+7. South Korea :: 48936
+8. Germany :: 46635
+9. Argentina :: 41897
+10. Mexico :: 40696
+11. United Kingdom :: 38137
+12. Italy :: 36748
+13. Nigeria :: 34708
+14. Saudi Arabia :: 32480
+15. Black Flag :: 31174
+16. Poland :: 28432
+17. Indonesia :: 24181
+18. Colombia :: 22552
+19. Australia :: 20557
+20. Thailand :: 20491
+21. Russia :: 20464
+22. India :: 19926
+23. Philippines :: 19734
+24. Chile :: 19733
+25. Canada :: 19454
+26. Ireland :: 18208
+27. Portugal :: 18206
+28. European Union :: 17904
+29. China :: 17565
+30. Pakistan :: 17348
+31. Kuwait :: 16034
+32. Greece :: 15688
+33. Venezuela :: 15595
+34. Chequered Flag :: 15563
+35. England :: 15535
+36. Algeria :: 13217
+37. New Zealand :: 12935
+38. Peru :: 12930
+39. Romania :: 12304
+40. Ecuador :: 11883
+41. Slovenia :: 11847
+42. Ghana :: 11785
+43. Triangular Flag :: 11529
+44. White Flag :: 11138
+45. Côte D’Ivoire :: 11131
+46. Netherlands :: 11083
+47. Norway :: 10751
+48. Rainbow Flag :: 10308
+49. Guinea :: 9179
+50. Malaysia :: 9168
+51. South Africa :: 8958
+52. Kenya :: 8699
+53. Syria :: 8529
+54. Scotland :: 8452
+55. Bangladesh :: 8113
+56. United Arab Emirates :: 7537
+57. Puerto Rico :: 7508
+58. Croatia :: 6985
+59. Oman :: 6599
+60. Singapore :: 6527
+61. Tunisia :: 6315
+62. Denmark :: 6155
+63. Hungary :: 6148
+64. Luxembourg :: 6085
+65. Czechia :: 5835
+66. Jamaica :: 5807
+67. Vietnam :: 5796
+68. Egypt :: 5562
+69. Uruguay :: 5369
+70. Taiwan :: 5356
+71. Latvia :: 5330
+72. Switzerland :: 5284
+73. Bulgaria :: 5104
+74. Estonia :: 4874
+75. Cyprus :: 4858
+76. Palestinian Territories :: 4843
+77. Slovakia :: 4829
+78. Malta :: 4655
+79. Yemen :: 4619
+80. Bolivia :: 4392
+81. Qatar :: 4253
+82. Paraguay :: 4222
+83. Iraq :: 3853
+84. Belgium :: 3789
+85. Wales :: 3624
+86. Finland :: 3470
+87. Austria :: 3432
+88. El Salvador :: 3414
+89. Crossed Flags :: 3382
+90. Panama :: 3282
+91. Morocco :: 3270
+92. Ukraine :: 3096
+93. Cuba :: 3070
+94. Iran :: 2999
+95. Azerbaijan :: 2867
+96. Greenland :: 2848
+97. Bhutan :: 2785
+98. Israel :: 2768
+99. Moldova :: 2763
+100. Faroe Islands :: 2748
+101. Cameroon :: 2648
+102. Sweden :: 2574
+103. Costa Rica :: 2438
+104. Trinidad & Tobago :: 2402
+105. Maldives :: 2390
+106. Guatemala :: 2378
+107. Ethiopia :: 2362
+108. Uganda :: 2359
+109. Zambia :: 2336
+110. Iceland :: 2276
+111. Serbia :: 2135
+112. Dominican Republic :: 2110
+113. Nicaragua :: 1916
+114. Ceuta & Melilla :: 1911
+115. Zimbabwe :: 1707
+116. Guam :: 1621
+117. Lebanon :: 1605
+118. Honduras :: 1581
+119. Liberia :: 1541
+120. Monaco :: 1463
+121. Bahrain :: 1439
+122. Senegal :: 1402
+123. Fiji :: 1339
+124. Jordan :: 1274
+125. U.S. Outlying Islands :: 1246
+126. Vanuatu :: 1183
+127. Hong Kong SAR China :: 1104
+128. Sudan :: 977
+129. Sri Lanka :: 900
+130. Clipperton Island :: 872
+131. Haiti :: 849
+132. Tanzania :: 786
+133. Belarus :: 782
+134. Gabon :: 773
+135. Lithuania :: 735
+136. Pirate Flag :: 710
+137. Georgia :: 644
+138. Timor-Leste :: 638
+139. United Nations :: 632
+140. Canary Islands :: 596
+141. Rwanda :: 578
+142. Albania :: 565
+143. American Samoa :: 551
+144. Somalia :: 550
+145. Armenia :: 542
+146. Laos :: 539
+147. Mauritius :: 518
+148. Brunei :: 514
+149. Bosnia & Herzegovina :: 510
+150. Mauritania :: 508
+151. Angola :: 494
+152. French Polynesia :: 479
+153. Congo - Kinshasa :: 473
+154. Cambodia :: 446
+155. Bahamas :: 432
+156. Tonga :: 416
+157. Libya :: 415
+158. Antigua & Barbuda :: 410
+159. Turkmenistan :: 409
+160. Macau Sar China :: 408
+161. Mozambique :: 398
+162. Samoa :: 397
+163. Afghanistan :: 379
+164. Madagascar :: 374
+165. Myanmar (Burma) :: 361
+166. Macedonia :: 351
+167. Botswana :: 346
+168. Papua New Guinea :: 339
+169. Barbados :: 333
+170. Grenada :: 307
+171. North Korea :: 302
+172. South Sudan :: 299
+173. Mali :: 292
+174. St. Lucia :: 285
+175. Benin :: 280
+176. Andorra :: 274
+177. Mongolia :: 274
+178. Guyana :: 272
+179. Kazakhstan :: 271
+180. Cook Islands :: 266
+181. Congo - Brazzaville :: 249
+182. Dominica :: 249
+183. Seychelles :: 235
+184. Guadeloupe :: 232
+185. Nepal :: 231
+186. Togo :: 229
+187. Namibia :: 220
+188. Chad :: 208
+189. Eritrea :: 207
+190. Montenegro :: 203
+191. San Marino :: 193
+192. St. Kitts & Nevis :: 190
+193. Aruba :: 190
+194. Burundi :: 185
+195. Gambia :: 183
+196. Burkina Faso :: 183
+197. Kosovo :: 181
+198. Antarctica :: 179
+199. Western Sahara :: 177
+200. U.S. Virgin Islands :: 174
+201. Vatican City :: 173
+202. Malawi :: 169
+203. Tajikistan :: 169
+204. Isle of Man :: 168
+205. Belize :: 167
+206. Niger :: 165
+207. Uzbekistan :: 162
+208. Comoros :: 158
+209. Guernsey :: 155
+210. Suriname :: 154
+211. Cape Verde :: 150
+212. Martinique :: 147
+213. Djibouti :: 147
+214. Norfolk Island :: 147
+215. Central African Republic :: 146
+216. Bermuda :: 144
+217. Curaçao :: 142
+218. Liechtenstein :: 137
+219. Kyrgyzstan :: 135
+220. Equatorial Guinea :: 132
+221. Gibraltar :: 132
+222. Sierra Leone :: 130
+223. Jersey :: 129
+224. Tokelau :: 126
+225. French Guiana :: 124
+226. Northern Mariana Islands :: 123
+227. Nauru :: 122
+228. New Caledonia :: 120
+229. Cayman Islands :: 120
+230. Sint Maarten :: 119
+231. Anguilla :: 118
+232. São Tomé & Príncipe :: 117
+233. Åland Islands :: 108
+234. Micronesia :: 108
+235. Kiribati :: 106
+236. Cocos (Keeling) Islands :: 105
+237. Réunion :: 104
+238. St. Barthélemy :: 100
+239. Tuvalu :: 97
+240. South Georgia & South Sandwich Islands :: 96
+241. Palau :: 95
+242. Swaziland :: 94
+243. Lesotho :: 93
+244. St. Pierre & Miquelon :: 91
+245. British Virgin Islands :: 90
+246. British Indian Ocean Territory :: 90
+247. Pitcairn Islands :: 89
+248. Mayotte :: 86
+249. St. Martin :: 85
+250. Montserrat :: 84
+251. St. Vincent & Grenadines :: 84
+252. Guinea-Bissau :: 84
+253. Christmas Island :: 80
+254. Ascension Island :: 78
+255. Marshall Islands :: 75
+256. Heard & McDonald Islands :: 75
+257. Falkland Islands :: 73
+258. Wallis & Futuna :: 72
+259. Turks & Caicos Islands :: 71
+260. Caribbean Netherlands :: 70
+261. Niue :: 59
+262. St. Helena :: 56
+263. Svalbard & Jan Mayen :: 52
+264. Solomon Islands :: 52
+265. Tristan Da Cunha :: 44
+266. French Southern Territories :: 42
+267. Bouvet Island :: 24
+268. Diego Garcia :: 3
